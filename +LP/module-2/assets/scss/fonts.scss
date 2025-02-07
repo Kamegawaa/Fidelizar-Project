@@ -1,0 +1,22 @@
+/* Definição de fontes */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* Variáveis para fontes */
+$poppins-font: 'Poppins', sans-serif;
+$poppins-font: 'baloo 2', sans-serif;
+
+/* Variáveis para tamanho das fontes */
+$font-title: clamp(2rem, 4vw, 3rem);
+$font-sbutitle: clamp(1.25rem, 3vw, 2rem);
+$font-text: clamp(1rem, 2vw, 1.25rem);
+$font-text2: clamp(1rem, 1.5vw, 1rem);
+
+// Variáveis globais
+$black: #121212;
+$pure-white: #ffffff;
+$second-white: #f5f5f5;
+$third-white: #eaeaea;
+$grey: #b5b5b5;
+$placeholder: #00000080;
+$purple: #9101fe;
+$alert: #dc4e79;
