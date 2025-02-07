@@ -1,0 +1,1170 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Ubuntu&display=swap');
+
+.ubuntu-regular {
+    font-family: "Ubuntu", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.covered-by-your-grace-regular {
+    font-family: "Covered By Your Grace", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#fidelity-btn {
+    transition: ease-in-out 0.3s;
+}
+
+#fidelity-btn:hover {
+    transform: scale(1.02);
+    background-color: #ff004b73;
+}
+
+#fidelity-gallery-btn {
+    transition: ease-in-out 0.2s;
+    border: 1px solid #0026ff00;
+    font-weight: 100;
+}
+
+#fidelity-gallery-btn:hover {
+    transform: scale(1.02);
+    border: 2px solid #2e2f35;
+    cursor: pointer;
+    background: #2e2f3526;
+}
+
+#fidelity-gallery-btn:active {
+    transform: scale(0.95);
+    cursor: pointer;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #FCFCFC;
+}
+
+.fidelity-head {
+    margin: 0;
+    border: 0;
+    height: 95vh;
+    padding: 0px 90px;
+    width: -webkit-fill-available;
+
+    background-image: url(/asset/images/background.svg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.fidelity-head-grup {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 12px;
+    width: -webkit-fill-available;
+}
+
+.fidelity-head-grup__title {
+    font-family: "Ubuntu", serif;
+    font-size: 72px;
+    font-weight: bold;
+    font-style: normal;
+    color: #2e2f35;
+    line-height: 86px;
+    max-width: 660px;
+}
+
+.fidelity-head-grup__cursive {
+    font-family: "Covered By Your Grace", serif;
+    font-size: 82px;
+    font-weight: normal;
+    font-style: italic;
+    color: #DC4E79;
+}
+
+.fidelity-head-grup__text {
+    font-family: "Ubuntu", serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    color: #2e2f35;
+    line-height: 34px;
+    max-width: 450px;
+}
+
+.fidelity-head-input {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 32px;
+    width: 40%;
+}
+
+.fidelity-head-input__layout {
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    width: -webkit-fill-available;
+}
+
+.fidelity-head-input__title {
+    font-family: "Ubuntu", serif;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: normal;
+    color: #2e2f35;
+    line-height: 34px;
+
+}
+
+.fidelity-head-input__text {
+    font-family: "Ubuntu", serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    color: #97979A;
+    line-height: 34px;
+}
+
+.fidelity-head-input__1 {
+    font-family: "Ubuntu", serif;
+    font-size: 16px;
+    font-weight: 100;
+    font-style: normal;
+    color: #97979A;
+
+    padding: 12px;
+    border-radius: 22px;
+    border: 1px solid #D8D8D8;
+    width: -webkit-fill-available;
+}
+
+.fidelity-head-input__1::placeholder {
+    color: #97979A;
+}
+
+.fidelity-head-input__2 {
+    width: -webkit-fill-available;
+    padding: 12px;
+    border-radius: 22px;
+    border: 1px solid #BB4267;
+    background: #DC4E79;
+
+    font-family: "Ubuntu", serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    color: #ffffff;
+}
+
+.fidelity-staps {
+    margin: 0;
+    border: 0;
+    height: 40vh;
+    padding: 90px 90px;
+    width: -webkit-fill-available;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.fidelity-staps-title {
+    font-family: "Ubuntu", serif;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: normal;
+    color: #2e2f35;
+    line-height: 34px;
+}
+
+.fidelity-staps-text {
+    font-family: "Covered By Your Grace", serif;
+    font-size: 40px;
+    font-weight: normal;
+    font-style: italic;
+    color: #DC4E79;
+}
+
+.fidelity-staps-grup {
+    width: -webkit-fill-available;
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.fidelity-staps-grup__layout {
+    width: -webkit-fill-available;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 22px;
+}
+
+.fidelity-staps-grup__text {
+    font-family: "Covered By Your Grace", serif;
+    font-size: 40px;
+    font-weight: normal;
+    font-style: italic;
+    color: #DC4E79;
+    min-width: 32px;
+    display: flex;
+    justify-content: center;
+    filter: opacity(0.5);
+}
+
+.fidelity-staps-grup__subtext {
+    font-family: "Ubuntu", serif;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: normal;
+    color: #2e2f35;
+    line-height: 34px;
+    filter: brightness(0.7) grayscale(0.7) opacity(0.5);
+}
+
+.fidelity-staps-grup__text-end {
+    font-family: "Covered By Your Grace", serif;
+    font-size: 40px;
+    font-weight: normal;
+    font-style: italic;
+    color: #DC4E79;
+    min-width: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.fidelity-staps-grup__end {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.fidelity-staps-grup__subtext-end {
+    font-family: "Ubuntu", serif;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: normal;
+    color: #2e2f35;
+    line-height: 34px;
+    margin-bottom: auto;
+    margin-top: 12px;
+}
+
+.fidelity-staps-grup__bar {
+    width: 2px;
+    height: 80px;
+    background: linear-gradient(360deg, #dc4e79 30%, #000000 70%);
+}
+
+.fidelity-indication {
+    margin: 0;
+    border: 0;
+    height: 50vh;
+    padding: 90px 90px;
+    width: -webkit-fill-available;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.fidelity-indication-title {
+    font-family: "Ubuntu", serif;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: normal;
+    color: #2e2f35;
+    line-height: 34px;
+    margin-right: auto;
+}
+
+.fidelity-indication-area__text {
+    font-family: "Ubuntu", serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    color: #2e2f35;
+    line-height: 34px;
+    max-width: 450px;
+}
+
+.fidelity-indication-text__focus {
+    color: #dc4e79;
+}
+
+.fidelity-indication-text__bold {
+    color: #2e2f35;
+}
+
+.fidelity-indication-area {
+    width: -webkit-fill-available;
+    background: #ffffff;
+    border: 1px solid #D9D9D9;
+    padding: 42px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    border-radius: 12px;
+    box-shadow: -2px 2px 10px 0px #0000001a;
+}
+
+.fidelity-indication-area__title {
+    font-family: "Ubuntu", serif;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: normal;
+    color: #2e2f35;
+    line-height: 34px;
+    margin: auto;
+}
+
+.fidelity-indication-text {
+    font-family: "Ubuntu", serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    color: #97979A;
+    line-height: 34px;
+}
+
+.fidelity-indication-area__input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: -webkit-fill-available;
+}
+
+.fidelity-indication-area__1 {
+    font-family: "Ubuntu", serif;
+    font-size: 16px;
+    font-weight: 100;
+    font-style: normal;
+    color: #97979A;
+    padding: 12px;
+    border-radius: 2px 0px 0px 2px;
+    border: 1px solid #D8D8D8;
+    width: -webkit-fill-available;
+}
+
+.fidelity-indication-area__2 {
+    width: -webkit-fill-available;
+    max-width: 132px;
+    padding: 12px;
+    border-radius: 0px 2px 2px 0px;
+    border: 1px solid #BB4267;
+    background: #DC4E79;
+    font-family: "Ubuntu", serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    color: #ffffff;
+}
+
+.fidelity-indication-area__web {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    width: -webkit-fill-available;
+}
+
+.fidelity-indication-area__box1 {
+    display: flex;
+    gap: 12px;
+    border: 1px solid #121212;
+    box-shadow: 2px 2px 0px 1px black;
+    background: #FDF3EA;
+    border-radius: 2px;
+    padding: 5px 12px;
+    width: -webkit-fill-available;
+    flex-direction: row;
+    align-items: center;
+}
+
+.fidelity-indication-area__box2 {
+    display: flex;
+    gap: 12px;
+    border: 1px solid #121212;
+    box-shadow: 2px 2px 0px 1px black;
+    background: #F3FAFA;
+    border-radius: 2px;
+    padding: 5px 12px;
+    width: -webkit-fill-available;
+    flex-direction: row;
+    align-items: center;
+}
+
+.fidelity-indication-area__desc {
+    font-family: "Ubuntu", serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    color: #121212;
+    line-height: 34px;
+}
+
+.fidelity-function {
+    margin: 0;
+    border: 0;
+    padding: 90px 90px;
+    gap: 32px;
+    width: -webkit-fill-available;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.fidelity-function-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    width: 50%;
+}
+
+.fidelity-function-grup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    max-width: 500px;
+}
+
+.fidelity-function-info__title {
+    font-family: "Covered By Your Grace", serif;
+    font-size: 50px;
+    font-weight: normal;
+    font-style: normal;
+    color: #DC4E79;
+}
+
+.fidelity-function-info__text {
+    font-family: "Ubuntu", serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    color: #97979A;
+    line-height: 34px;
+}
+
+.fidelity-function-box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border: 2px solid #dc4e79;
+    padding: 22px;
+    border-radius: 12px;
+    min-width: 312px;
+    width: -webkit-fill-available;
+}
+
+.fidelity-function-box__img1 {
+    margin-bottom: 106px;
+    position: absolute;
+    background-image: url(/asset/images/asparosa.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+
+.fidelity-function-box2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border: 2px solid #9101FE;
+    padding: 22px;
+    border-radius: 12px;
+    min-width: 312px;
+    width: -webkit-fill-available;
+}
+
+.fidelity-function-box__img2 {
+    margin-bottom: 106px;
+    position: absolute;
+    background-image: url(/asset/images/asparoxo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+
+.fidelity-function-box__title {
+    font-family: "Ubuntu", serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    color: #2e2f35;
+    line-height: 34px;
+}
+
+.fidelity-function-box__text {
+    font-family: "Ubuntu", serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    color: #97979a;
+    line-height: 25px;
+}
+
+.fidelity-function-img {
+    background-image: url(/asset/images/img.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: -webkit-fill-available;
+    height: 460px;
+}
+
+.fidelity-points {
+    margin: 0;
+    border: 0;
+    padding: 90px 90px;
+    gap: 32px;
+    width: -webkit-fill-available;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.fidelity-points-desc {
+    text-align: center;
+}
+
+.fidelity-points-title {
+    font-family: "Ubuntu", serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    color: #2e2f35;
+    line-height: 34px;
+}
+
+.fidelity-points-text {
+    font-family: "Covered By Your Grace", serif;
+    font-size: 50px;
+    font-weight: normal;
+    font-style: italic;
+    color: #DC4E79;
+}
+
+.fidelity-points-grup {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: -webkit-fill-available;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.fidelity-points-grup__box1 {
+    display: flex;
+    width: -webkit-fill-available;
+    background: radial-gradient(#F3FAFA, #DFF5F5);
+    flex-direction: column;
+    border: 1px solid #D9D9D9;
+    border-radius: 8px;
+    align-items: center;
+    padding: 90px 32px;
+    gap: 12px;
+}
+
+.fidelity-points-grup__img1 {
+    background-image: url(/asset/images/icon1.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 200px;
+}
+
+.fidelity-points-grup__box2 {
+    display: flex;
+    width: -webkit-fill-available;
+    background: radial-gradient(#FFEBF1, #F3D8E0);
+    flex-direction: column;
+    border-radius: 8px;
+    align-items: center;
+    padding: 90px 32px;
+    gap: 12px;
+}
+
+.fidelity-points-grup__img2 {
+    background-image: url(/asset/images/icon2.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 200px;
+}
+
+.fidelity-points-grup__box3 {
+    display: flex;
+    width: -webkit-fill-available;
+    background: radial-gradient(#FDF3EA, #FEEDDD);
+    flex-direction: column;
+    border-radius: 8px;
+    align-items: center;
+    padding: 90px 32px;
+    gap: 12px;
+}
+
+.fidelity-points-grup__img3 {
+    background-image: url(/asset/images/icon3.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 132px;
+    height: 200px;
+}
+
+.fidelity-points-grup__title {
+    font-family: "Ubuntu", serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    color: #2e2f35;
+    line-height: 34px;
+}
+
+.fidelity-points-grup__text {
+    text-align: center;
+    font-family: "Ubuntu", serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    color: #97979A;
+    line-height: 34px;
+}
+
+.fidelity-reward {
+    margin: 0;
+    border: 0;
+    padding: 90px 90px;
+    gap: 32px;
+    width: -webkit-fill-available;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.fidelity-reward-desc {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: -webkit-fill-available;
+}
+
+.fidelity-reward-title {
+    font-family: "Ubuntu", serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    color: #2e2f35;
+    line-height: 34px;
+}
+
+.fidelity-reward-text {
+    font-family: "Ubuntu", serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    color: #2e2f35;
+    line-height: 34px;
+}
+
+.fidelity-reward-text__bold {
+    font-weight: bold;
+}
+
+.fidelity-reward-grup {
+    display: grid;
+    gap: 32px;
+    justify-items: stretch;
+    width: -webkit-fill-available;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.fidelity-reward-grup__card {
+    width: -webkit-fill-available;
+    background: #ffffff;
+    border: 1px solid #D9D9D9;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    border-radius: 6px;
+    box-shadow: -2px 2px 10px 0px #0000001a;
+}
+
+.fidelity-reward-grup__img {
+    width: -webkit-fill-available;
+    height: 20vh;
+}
+
+.fidelity-img1 {
+    background-image: url(/asset/images/img.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fidelity-img2 {
+    background-image: url(/asset/images/img.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fidelity-img3 {
+    background-image: url(/asset/images/img.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fidelity-img4 {
+    background-image: url(/asset/images/img.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fidelity-img5 {
+    background-image: url(/asset/images/img.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fidelity-img6 {
+    background-image: url(/asset/images/img.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fidelity-reward-grup__title {
+    font-family: "Ubuntu", serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    color: #121212;
+}
+
+.fidelity-reward-grup__text {
+    font-family: "Ubuntu", serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    color: #97979a;
+}
+
+.fidelity-reward-grup__card-focus {
+    width: -webkit-fill-available;
+    background: #dc4e79;
+    border: 1px solid #D9D9D9;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    border-radius: 6px;
+    box-shadow: -2px 2px 10px 0px #0000001a;
+}
+
+.fidelity-reward-grup__title__focus {
+    font-family: "Ubuntu", serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    color: #ffffff;
+}
+
+.fidelity-reward-grup__text__focus {
+    font-family: "Ubuntu", serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    color: #ffffff;
+}
+
+.fidelity-reward-end {
+    display: flex;
+    padding-top: 32px;
+    gap: 12px;
+    flex-direction: column;
+    align-items: center;
+    width: -webkit-fill-available;
+}
+
+.fidelity-reward-end__img {
+    background-image: url(/asset/images/icon-end.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+}
+
+.fidelity-reward-end__text {
+    font-family: "Ubuntu", serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    color: #2e2f35;
+    line-height: 34px;
+    max-width: 500px;
+    text-align: center;
+}
+
+.fidelity-club {
+    margin: 0;
+    border: 0;
+    padding: 90px 90px;
+    gap: 200px;
+    width: -webkit-fill-available;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.fidelity-club-img {
+    width: -webkit-fill-available;
+    height: 500px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/asset/images/img.svg);
+}
+
+.fidelity-club-grup {
+    width: -webkit-fill-available;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.fidelity-club-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.fidelity-club-grup__title {
+    font-family: "Ubuntu", serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    color: #2e2f35;
+    line-height: 34px;
+}
+
+.fidelity-club-grup__focus {
+    font-family: "Covered By Your Grace", serif;
+    font-size: 50px;
+    font-weight: normal;
+    font-style: italic;
+    color: #DC4E79;
+}
+
+.fidelity-club-grup__text {
+
+    font-family: "Ubuntu", serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    color: #97979A;
+    line-height: 34px;
+}
+
+.fidelity-club-grup__pass {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.fidelity-club-grup__pass-text {
+    font-family: "Ubuntu", serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    color: #dc4e79;
+    text-align: center;
+}
+
+.fidelity-gallery {
+    margin: 0;
+    border: 0;
+    padding: 90px 90px;
+    gap: 32px;
+    width: -webkit-fill-available;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.fidelity-gallery__title {
+    font-family: "Ubuntu", serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    color: #2e2f35;
+    line-height: 34px;
+    margin-right: auto;
+}
+
+.fidelity-gallery__pics {
+
+    gap: 12px;
+
+    display: flex;
+
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+    width: -webkit-fill-available;
+}
+
+.fidelity-gallery__btn1 {
+    max-width: min-content;
+    padding: 6px;
+    border-radius: 2px;
+    font-family: monospace;
+    font-size: 36px;
+    font-style: normal;
+    background: none;
+}
+
+.fidelity-gallery__btn2 {
+    max-width: min-content;
+    padding: 6px;
+    border-radius: 2px;
+    font-family: monospace;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: normal;
+    background: none;
+}
+
+.fidelity-gallery__carrossel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: -webkit-fill-available;
+    gap: 12px;
+}
+
+.fidelity-gallery__img {
+    width: -webkit-fill-available;
+    height: 200px;
+    border-radius: 6px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/asset/images/img.svg);
+}
+
+.fidelity-extract {
+    margin: 0;
+    border: 0;
+    height: auto;
+    padding: 90px 90px;
+    width: -webkit-fill-available;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.fidelity-extract-area {
+    width: -webkit-fill-available;
+    background: #ffffff;
+    border: 1px solid #D9D9D9;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    border-radius: 6px;
+    box-shadow: -2px 2px 10px 0px #0000001a;
+}
+
+.fidelity-grup {
+    width: -webkit-fill-available;
+    display: flex;
+    flex-direction: column;
+}
+
+.fidelity-extract__title {
+    font-family: "Ubuntu", serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    color: #2e2f35;
+    line-height: 34px;
+    text-align: center;
+}
+
+.fidelity-extract__text {
+    font-family: "Ubuntu", serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    color: #2e2f35;
+    line-height: 34px;
+    text-align: center;
+}
+
+.fidelity-extract__input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: -webkit-fill-available;
+}
+
+.fidelity-extract-area__1 {
+    font-family: "Ubuntu", serif;
+    font-size: 16px;
+    font-weight: 100;
+    font-style: normal;
+    color: #97979A;
+    padding: 12px;
+    border-radius: 2px 0px 0px 2px;
+    border: 1px solid #D8D8D8;
+    width: -webkit-fill-available;
+}
+
+.fidelity-extract-area__2 {
+    transition: ease-in-out 0.3s;
+    width: -webkit-fill-available;
+    max-width: 132px;
+    padding: 12px;
+    border-radius: 0px 2px 2px 0px;
+    border: 1px solid #BB4267;
+    background: #DC4E79;
+    font-family: "Ubuntu", serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    color: #ffffff;
+}
+
+.fidelity-promotion {
+    margin: 0;
+    border: 0;
+    padding: 90px 90px;
+    gap: 32px;
+    width: -webkit-fill-available;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.fidelity-promotion-text-grup {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.fidelity-promotion-text {
+    font-family: "Ubuntu", serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    color: #2e2f35;
+    line-height: 34px;
+    text-align: center;
+}
+
+.fidelity-promotion-title {
+    font-family: "Ubuntu", serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    color: #2e2f35;
+    line-height: 34px;
+    text-align: center;
+}
+
+.fidelity-promotion-grid {
+    display: grid;
+    gap: 32px;
+    width: -webkit-fill-available;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: stretch;
+}
+
+.fidelity-promotion-grid__card {
+    width: -webkit-fill-available;
+    background: #ffffff;
+    border: 1px solid #D9D9D9;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    border-radius: 6px;
+    box-shadow: -2px 2px 10px 0px #0000001a;
+}
+
+.fidelity-promotion-grid__text {
+    font-family: "Ubuntu", serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    color: #2e2f35;
+    line-height: 34px;
+    text-align: center;
+}
+
+.fidelity-promotion-grid__title {
+    font-family: "Ubuntu", serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    color: #2e2f35;
+    line-height: 34px;
+    text-align: center;
+    border-radius: 6px;
+    background-color: #B5B5B5;
+    padding: 6px 130px;
+}
