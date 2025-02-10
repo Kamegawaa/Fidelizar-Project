@@ -1,3 +1,3 @@
 #LP'S da fidelizar+
 
-##### Demo [Clique aqui para assistir](https://fidelizar.vercel.app/)
+##### Demo [Link para o Hub de LP'S](https://fidelizar.vercel.app/)
