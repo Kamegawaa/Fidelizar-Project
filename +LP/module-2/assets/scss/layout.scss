@@ -1,0 +1,71 @@
+// Defina os valores para espaços
+$space-small: 12px;
+$space-medium: 22px;
+$space-large: 32px;
+$img-icon: 60px;
+$img-small: 90px;
+$img-medium: 320px;
+$img-large: 1000px;
+
+// Variáveis de Layout
+%flex-center {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: $space-small;
+    align-items: flex-start;
+}
+
+%flex-start {
+    width: -webkit-fill-available;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: $space-small;
+    align-items: flex-start;
+}
+
+%flex-aside {
+    width: -webkit-fill-available;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: $space-small;
+    justify-content: flex-start;
+}
+
+%flex-duo {
+    width: -webkit-fill-available;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: $space-small;
+    justify-content: flex-start;
+}
+
+%flex-row {
+    width: -webkit-fill-available;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: $space-small;
+    justify-content: center;
+}
+
+%flex-grid {
+    width: -webkit-fill-available;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: $space-medium;
+}
+
+%center-wrap {
+    width: -webkit-fill-available;
+    display: flex;
+    gap: $space-small;
+    justify-content: center;
+    justify-items: stretch;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
