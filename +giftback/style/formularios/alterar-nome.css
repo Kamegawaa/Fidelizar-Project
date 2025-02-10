@@ -1,0 +1,177 @@
+/* --- Importação de fontes e definição de variáveis globais --- */
+
+/* Importação da fonte Baloo 2 */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
+
+/* Definição das fontes personalizadas */
+@font-face {
+    font-family: 'Baloo';
+    src: url(/assets/font-baloo/Baloo-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Variáveis de cores e fontes */
+:root {
+    --Cards: #FFFFFF;
+    --Multstap: #E5E5E5;
+    --Background: #FFEFE9;
+    --Texto-Botao: #2C2C2C;
+    --Texto-Claro: #C6C6C6;
+    --Texto-Cinza1: #555555;
+    --Texto-Cinza2: #888888;
+    --Borda-Escura: #767676;
+    --Borda-Clara: #D9D9D9;
+    --Gradiente-1: #EE7662;
+    --Gradiente-2: #F56952;
+    --Gradiente-3: #E54D33;
+    --Gradiente-4: #CD3319;
+    --Gradiente-5: #9C2B18;
+    --Gradiente-6: #7A1807;
+    --Gradiente-7: #631300;
+    --Gradiente-8: #360101;
+    --Hyperlink: #0B57D0;
+    --Texto-Erro: #F42525;
+
+    --font-primaria: 1rem/1.5 "Baloo 2", sans-serif;
+    --font-secundaria: 1rem/1.5 'Baloo', sans-serif;
+    --cor-primaria: var(--Texto-Botao);
+}
+
+.alterar-nome{
+    margin-left: 12px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-img{
+    cursor: pointer;
+    border: none;
+    margin-top: 12px;
+    filter: grayscale(1);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: -webkit-fill-available;
+    background-color: var(--Cards);
+    background-image: url(/assets/icon/foto-perfil.svg);
+}
+
+.alterar-texto{
+    text-align: center;
+    font-weight: 100;
+    padding-top: 12px;
+    margin: 0;
+    font-size: clamp(0em, 1vw + 2vw, 1em);
+    color: var(--Texto-Claro);
+}
+
+.alterar-form{
+    display: none;
+    z-index: 999;
+    height: 100%;
+    right: 10%;
+    left: 10%;
+    padding: 12px 32px;
+    position: absolute;
+    background-color: #ffffff;
+    border: 1px solid var(--Borda-Clara);
+    border-radius: 8px;
+    box-shadow: 9px 9px 23px #00000038;
+}
+
+.alterar-form.show {
+    display: block;
+}
+
+.perfil-dropdown.show {
+    opacity: 1; 
+}
+
+.alterar-top{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.barra{
+    margin-bottom: 12px;
+    border-radius: 10px;
+    width: 100px;
+    height: 2px;
+    background-color: var(--Borda-Escura);
+}
+
+.alterar-img{
+    padding: 24px 0px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid var(--Borda-Clara);
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.img-atual{
+    filter: grayscale(1);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url(/assets/icon/foto-perfil.svg);
+    width: 80px;
+    height: 80px;
+}
+
+.aleterar-animacao{
+    left: 22%;
+    top: 153px;
+    position: absolute;
+    width: 20%;
+    height: 1.5px;
+    background-color: var(--Gradiente-1);
+}
+
+.img-avatar{
+    filter: grayscale(1);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url(/assets/icon/icon-Perfil-A.svg);
+    width: 80px;
+    height: 80px;
+}
+
+.alterar-input{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.alterar-opcoes{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+h1.opcoes{
+    margin-left: 6px;
+    font-size: 1rem;
+    color: var(--Texto-Botao);
+    font-weight: 100;
+}
+
+h1.deletar{
+    margin-left: 6px;
+    font-size: 1rem;
+    color: var(--Texto-Erro);
+    font-weight: 100;
+}
