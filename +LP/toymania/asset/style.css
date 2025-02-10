@@ -1,5 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Ubuntu&display=swap");
 
+/* Reset para inputs no Safari iOS */
+input[type=button],
+input[type=submit],
+input[type=reset],
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0;
+}
+
 .ubuntu-regular {
     font-family: Ubuntu, serif;
     font-weight: 400;
