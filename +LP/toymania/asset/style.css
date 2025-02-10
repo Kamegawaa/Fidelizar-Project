@@ -5,10 +5,9 @@ input[type=button],
 input[type=submit],
 input[type=reset],
 button {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  border-radius: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 .ubuntu-regular {
@@ -1203,6 +1202,7 @@ body {
         align-items: flex-start;
         height: 75vh;
         padding: 32px;
+        justify-content: flex-start;
     }
 
     .fidelity-head-grup__title {
@@ -1415,6 +1415,10 @@ body {
 }
 
 @media (max-width: 426px) {
+    .fidelity-head {
+        height: 90vh;
+    }
+
     .fidelity-function-box__img1 {
         margin-top: -18%;
     }
