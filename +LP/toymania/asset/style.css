@@ -1420,10 +1420,16 @@ body {
     }
 
     .fidelity-function-box__img1 {
-        margin-top: -18%;
+        margin-top: -8%;
     }
 
     .fidelity-promotion-grid__title {
         padding: 6px;
+    }
+}
+
+@media (max-width: 370px) {
+    .fidelity-function-box__img1 {
+        margin-top: -18%;
     }
 }
