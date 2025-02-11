@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;600;800&family=Ubuntu:wght@400;500;700&display=swap');
+
+.ubuntu-font {
+    font-family: 'Ubuntu', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.baloo-font {
+    font-family: 'Baloo Bhaijaan 2', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+}
+
+.header {
+    margin: 10vh 0px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.head-top {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 32px 150px;
+    gap: 12px;
+}
+
+.header-title {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 3px;
+}
+
+.arrow-icon {
+    transform: rotate(90deg);
+    width: 20px;
+    height: 20px;
+    color: #354045;
+}
+
+.header-title__title {
+    font-family: 'Ubuntu', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+    font-style: normal;
+    color: #121212;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.header-text {
+    font-family: 'Baloo Bhaijaan 2', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    font-style: normal;
+    color: #121212;
+    text-align: center;
+    max-width: 1000px;
+    line-height: 48px;
+}
+
+.header-text__focus {
+    font-family: 'Baloo Bhaijaan 2', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    font-style: normal;
+    color: #121212;
+}
+
+.hader-bottom {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 32px 150px;
+    gap: 32px;
+}
+
+.heade-info {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 22px;
+    width: -webkit-fill-available;
+}
+
+.heade-info__grup {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 6px;
+}
+
+.heade-info__title {
+    font-family: 'Baloo Bhaijaan 2', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: normal;
+    color: #121212;
+    text-transform: uppercase;
+}
+
+.heade-info__text {
+    font-family: 'Ubuntu', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    color: #5D5D5D;
+}
+
+.heade-info__btn {
+    transition: ease-in-out 0.3s;
+    width: 275px;
+    padding: 22px;
+    border-radius: 50px;
+    background-color: #121212;
+    border: 1px solid #5D5D5D;
+
+    font-family: 'Baloo Bhaijaan 2', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    color: #ffffff;
+}
+
+.heade-info__btn:hover {
+    transform: scale(1.02);
+    filter: brightness(2);
+}
+
+.heade-info__btn:active {
+    filter: brightness(0.8);
+    transform: scale(1);
+}
+
+
+.heade-indice {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 22px;
+    width: -webkit-fill-available;
+}
+
+.heade-indice__grup {
+    border-bottom: 1px solid #E9E9E9;
+    width: -webkit-fill-available;
+}
+
+.scroll-link {
+    text-decoration: none;
+}
+
+.heade-indice__text {
+    font-family: 'Baloo Bhaijaan 2', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    color: #121212;
+    text-transform: uppercase;
+}
+
+.section-why {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 32px 150px;
+    gap: 12px;
+}
+
+.section-why__grup {
+    border-bottom: 1px solid #E9E9E9;
+    width: -webkit-fill-available;
+}
+
+.section-why__title {
+    font-family: 'Baloo Bhaijaan 2', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    color: #121212;
+    text-transform: uppercase;
+    width: -webkit-fill-available;
+}
+
+.section-why__text {
+    font-family: 'Baloo Bhaijaan 2', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: normal;
+    color: #121212;
+    text-transform: uppercase;
+    width: -webkit-fill-available;
+}
+
+.section-why__textsub {
+    font-family: 'Ubuntu', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    color: #5D5D5D;
+    width: -webkit-fill-available;
+    max-width: 750px;
+    margin-right: auto;
+}
+
+.section-fidelity {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 32px 150px;
+    gap: 12px;
+}
+
+.section-fidelity__grup {
+    border-bottom: 1px solid #E9E9E9;
+    width: -webkit-fill-available;
+}
+
+.section-fidelity__title {
+    font-family: 'Baloo Bhaijaan 2', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    color: #121212;
+    text-transform: uppercase;
+    width: -webkit-fill-available;
+}
+
+.section-fidelity__text {
+    font-family: 'Baloo Bhaijaan 2', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: normal;
+    color: #121212;
+    text-transform: uppercase;
+    width: -webkit-fill-available;
+}
+
+.section-fidelity__textsub {
+    font-family: 'Ubuntu', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    color: #5D5D5D;
+    width: -webkit-fill-available;
+    max-width: 750px;
+    margin-right: auto;
+}
+
+.section-gallery {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 32px 150px;
+    gap: 32px;
+}
+
+.section-gallery__info {
+    width: -webkit-fill-available;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-gallery__grup {
+    border-bottom: 1px solid #E9E9E9;
+    width: -webkit-fill-available;
+}
+
+.section-gallery__title {
+    font-family: 'Baloo Bhaijaan 2', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    color: #121212;
+    text-transform: uppercase;
+    width: -webkit-fill-available;
+}
+
+.section-gallery__text {
+    font-family: 'Baloo Bhaijaan 2', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: normal;
+    color: #121212;
+    text-transform: uppercase;
+    width: -webkit-fill-available;
+}
+
+.section-gallery__textsub {
+    font-family: 'Ubuntu', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    color: #5D5D5D;
+    width: -webkit-fill-available;
+    max-width: 750px;
+    margin-right: auto;
+}
+
+.section-gallery__italic {
+    font-family: 'Ubuntu', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: italic;
+    color: #5D5D5D;
+    width: -webkit-fill-available;
+}
+
+.section-gallery__hub {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: -webkit-fill-available;
+    align-items: stretch;
+}
+
+.section-gallery__card {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 12vw;
+}
+
+.section-gallery__card__img1 {
+    background-image: url(img/Loja\ 0.png);
+}
+
+.section-gallery__card__img2 {
+    background-image: url(img/Loja\ 1.png);
+}
+
+.section-gallery__card__img3 {
+    background-image: url(img/Loja\ 2.png);
+}
+
+.section-gallery__card__img4 {
+    background-image: url(img/Loja\ 3.png);
+}
+
+.section-gallery__card__img {
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 34vw;
+    height: 100%;
+}
+
+.section-gallery__card__grup {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: -webkit-fill-available;
+}
+
+.section-gallery__card__grup__title {
+    font-family: 'Baloo Bhaijaan 2', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: normal;
+    color: #121212;
+    text-transform: uppercase;
+    width: -webkit-fill-available;
+}
+
+.section-gallery__card__grup__text {
+    font-family: 'Ubuntu', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    color: #5D5D5D;
+    width: -webkit-fill-available;
+}
+
+.section-gallery__card__grup__link {
+    font-family: 'Ubuntu', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    color: #3DA1FF;
+}
+
+label {
+    cursor: pointer;
+}
+
+@media (max-width: 900px) {
+    .header {
+        margin: 0px;
+    }
+
+    .head-top,
+    .hader-bottom,
+    .section-why,
+    .section-fidelity,
+    .section-gallery {
+        margin: 32px 50px;
+    }
+
+    .header-text {
+        text-align: start;
+    }
+}
+
+@media (max-width: 555px) {
+    .section-gallery__card {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        justify-content: flex-start;
+        align-items: center;
+        min-height: 12vw;
+        padding-bottom: 100px;
+        border-bottom: 1px solid #E9E9E9;
+    }
+
+    .section-gallery__card__img {
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: -webkit-fill-available;
+        height: 200px;
+    }
+}
