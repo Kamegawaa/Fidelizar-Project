@@ -1,0 +1,1437 @@
+@import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Ubuntu&display=swap");
+
+/* Reset para inputs no Safari iOS */
+input[type=button],
+input[type=submit],
+input[type=reset],
+button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.ubuntu-regular {
+    font-family: Ubuntu, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.covered-by-your-grace-regular {
+    font-family: "Covered By Your Grace", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#fidelity-btn {
+    transition: 0.3s ease-in-out;
+}
+
+#fidelity-btn:hover {
+    transform: scale(1.02);
+    background-color: rgba(255, 0, 75, 0.45);
+}
+
+#fidelity-gallery-btn {
+    transition: ease-in-out0 0.2s;
+    border: 1px solid rgba(0, 38, 255, 0);
+    font-weight: 100;
+}
+
+#fidelity-gallery-btn:hover {
+    transform: scale(1.02);
+    border: 2px solid rgb(46, 47, 53);
+    cursor: pointer;
+    background: rgba(46, 47, 53, 0.15);
+}
+
+#fidelity-gallery-btn:active {
+    transform: scale(0.95);
+    cursor: pointer;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(252, 252, 252);
+}
+
+.fidelity-head {
+    margin: 0px;
+    border: 0px;
+    height: 95vh;
+    padding: 0px 90px;
+    width: -webkit-fill-available;
+    background-image: url("/+LP/toymania/asset/images/background.svg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.fidelity-head-grup {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 12px;
+    width: -webkit-fill-available;
+}
+
+.fidelity-head-grup__title {
+    font-family: Ubuntu, serif;
+    font-size: 72px;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(46, 47, 53);
+    line-height: 86px;
+    max-width: 660px;
+}
+
+.fidelity-head-grup__cursive {
+    font-family: "Covered By Your Grace", serif;
+    font-size: 82px;
+    font-weight: normal;
+    font-style: italic;
+    color: rgb(220, 78, 121);
+}
+
+.fidelity-head-grup__text {
+    font-family: Ubuntu, serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    color: rgb(46, 47, 53);
+    line-height: 34px;
+    max-width: 450px;
+}
+
+.fidelity-head-input {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 32px;
+    width: 40%;
+}
+
+.fidelity-head-input__layout {
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    width: -webkit-fill-available;
+}
+
+.fidelity-head-input__title {
+    font-family: Ubuntu, serif;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(46, 47, 53);
+    line-height: 34px;
+}
+
+.fidelity-head-input__title {
+    font-size: 30px;
+}
+
+.fidelity-head-input__text {
+    font-family: Ubuntu, serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    color: rgb(151, 151, 154);
+    line-height: 34px;
+}
+
+.fidelity-head-input__1 {
+    font-family: Ubuntu, serif;
+    font-size: 16px;
+    font-weight: 100;
+    font-style: normal;
+    color: rgb(151, 151, 154);
+    padding: 12px;
+    border-radius: 22px;
+    border: 1px solid rgb(216, 216, 216);
+    width: -webkit-fill-available;
+}
+
+.fidelity-head-input__1::placeholder {
+    color: rgb(151, 151, 154);
+}
+
+.fidelity-head-input__2 {
+    width: -webkit-fill-available;
+    padding: 12px;
+    border-radius: 22px;
+    border: 1px solid rgb(187, 66, 103);
+    background: rgb(220, 78, 121);
+    font-family: Ubuntu, serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+}
+
+.fidelity-staps {
+    margin: 0px;
+    border: 0px;
+    height: 40vh;
+    padding: 90px;
+    width: -webkit-fill-available;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.fidelity-staps-title {
+    font-family: Ubuntu, serif;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(46, 47, 53);
+    line-height: 45px;
+}
+
+.fidelity-staps-text {
+    font-family: "Covered By Your Grace", serif;
+    font-size: 40px;
+    font-weight: normal;
+    font-style: italic;
+    color: rgb(220, 78, 121);
+}
+
+.fidelity-staps-grup {
+    width: -webkit-fill-available;
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: start;
+    gap: 12px;
+}
+
+.fidelity-staps-grup__layout {
+    width: -webkit-fill-available;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 22px;
+}
+
+.fidelity-staps-grup__text {
+    font-family: "Covered By Your Grace", serif;
+    font-size: 40px;
+    font-weight: normal;
+    font-style: italic;
+    color: rgb(220, 78, 121);
+    min-width: 32px;
+    display: flex;
+    justify-content: center;
+    filter: opacity(0.5);
+}
+
+.fidelity-staps-grup__subtext {
+    font-family: Ubuntu, serif;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: normal;
+    color: rgb(46, 47, 53);
+    line-height: 34px;
+    filter: brightness(0.7) grayscale(0.7) opacity(0.5);
+}
+
+.fidelity-staps-grup__text-end {
+    font-family: "Covered By Your Grace", serif;
+    font-size: 40px;
+    font-weight: normal;
+    font-style: italic;
+    color: rgb(220, 78, 121);
+    min-width: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.fidelity-staps-grup__end {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.fidelity-staps-grup__subtext-end {
+    font-family: Ubuntu, serif;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: normal;
+    color: rgb(46, 47, 53);
+    line-height: 34px;
+    margin-bottom: auto;
+    margin-top: 12px;
+}
+
+.fidelity-staps-grup__bar {
+    width: 2px;
+    height: 80px;
+    background: linear-gradient(360deg, rgb(220, 78, 121) 30%, rgb(0, 0, 0) 70%);
+}
+
+.fidelity-indication {
+    margin: 0px;
+    border: 0px;
+    height: 50vh;
+    padding: 90px;
+    width: -webkit-fill-available;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.fidelity-indication-title {
+    font-family: Ubuntu, serif;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(46, 47, 53);
+    line-height: 34px;
+    margin-right: auto;
+}
+
+.fidelity-indication-area__text {
+    font-family: Ubuntu, serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    color: rgb(46, 47, 53);
+    line-height: 34px;
+    max-width: 450px;
+}
+
+.fidelity-indication-text__focus {
+    color: rgb(220, 78, 121);
+}
+
+.fidelity-indication-text__bold {
+    color: rgb(46, 47, 53);
+}
+
+.fidelity-indication-area {
+    width: -webkit-fill-available;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(217, 217, 217);
+    padding: 42px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.1) -2px 2px 10px 0px;
+}
+
+.fidelity-indication-area__title {
+    font-family: Ubuntu, serif;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(46, 47, 53);
+    line-height: 34px;
+    margin: auto;
+}
+
+.fidelity-indication-text {
+    font-family: Ubuntu, serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    color: rgb(151, 151, 154);
+    line-height: 34px;
+}
+
+.fidelity-indication-area__input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: -webkit-fill-available;
+}
+
+.fidelity-indication-area__1 {
+    font-family: Ubuntu, serif;
+    font-size: 16px;
+    font-weight: 100;
+    font-style: normal;
+    color: rgb(151, 151, 154);
+    padding: 12px;
+    border-radius: 2px 0px 0px 2px;
+    border: 1px solid rgb(216, 216, 216);
+    width: -webkit-fill-available;
+}
+
+.fidelity-indication-area__2 {
+    width: -webkit-fill-available;
+    max-width: 132px;
+    padding: 12px;
+    border-radius: 0px 2px 2px 0px;
+    border: 1px solid rgb(187, 66, 103);
+    background: rgb(220, 78, 121);
+    font-family: Ubuntu, serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+}
+
+.fidelity-indication-area__web {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    width: -webkit-fill-available;
+}
+
+.fidelity-indication-area__box1 {
+    display: flex;
+    gap: 12px;
+    border: 1px solid rgb(18, 18, 18);
+    box-shadow: black 2px 2px 0px 1px;
+    background: rgb(253, 243, 234);
+    border-radius: 2px;
+    padding: 5px 12px;
+    width: -webkit-fill-available;
+    flex-direction: row;
+    align-items: center;
+}
+
+.fidelity-indication-area__box2 {
+    display: flex;
+    gap: 12px;
+    border: 1px solid rgb(18, 18, 18);
+    box-shadow: black 2px 2px 0px 1px;
+    background: rgb(243, 250, 250);
+    border-radius: 2px;
+    padding: 5px 12px;
+    width: -webkit-fill-available;
+    flex-direction: row;
+    align-items: center;
+}
+
+.fidelity-indication-area__desc {
+    font-family: Ubuntu, serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    color: rgb(18, 18, 18);
+    line-height: 34px;
+}
+
+.fidelity-function {
+    margin: 0px;
+    border: 0px;
+    padding: 90px;
+    gap: 32px;
+    width: -webkit-fill-available;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.fidelity-function-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    width: 50%;
+    min-width: 370px;
+}
+
+.fidelity-function-grup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    max-width: 500px;
+    width: -webkit-fill-available;
+}
+
+.fidelity-function-info__title {
+    font-family: "Covered By Your Grace", serif;
+    font-size: 50px;
+    font-weight: normal;
+    font-style: normal;
+    color: rgb(220, 78, 121);
+}
+
+.fidelity-function-info__text {
+    font-family: Ubuntu, serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    color: rgb(151, 151, 154);
+    line-height: 34px;
+}
+
+.fidelity-function-box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border: 2px solid rgb(220, 78, 121);
+    padding: 22px;
+    border-radius: 12px;
+    width: -webkit-fill-available;
+}
+
+.fidelity-function-box__img1 {
+    margin-bottom: 106px;
+    position: absolute;
+    background-image: url("/+LP/toymania/asset/images/asparosa.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+
+.fidelity-function-box2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border: 2px solid rgb(145, 1, 254);
+    padding: 22px;
+    border-radius: 12px;
+    width: -webkit-fill-available;
+}
+
+.fidelity-function-box__img2 {
+    margin-bottom: 106px;
+    position: absolute;
+    background-image: url("/+LP/toymania/asset/images/asparoxo.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+
+.fidelity-function-box__title {
+    font-family: Ubuntu, serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(46, 47, 53);
+    line-height: 34px;
+}
+
+.fidelity-function-box__text {
+    font-family: Ubuntu, serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    color: rgb(151, 151, 154);
+    line-height: 25px;
+    display: flex;
+}
+
+.fidelity-function-img {
+    background-image: url("https://toymania.vtexassets.com/assets/vtex/assets-builder/toymania.store-theme/11.0.85/images/baby1___0ee8372f52f061dfd907e88f2a4fcd14.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: -webkit-fill-available;
+    height: 460px;
+}
+
+.fidelity-points {
+    margin: 0px;
+    border: 0px;
+    padding: 90px;
+    gap: 32px;
+    width: -webkit-fill-available;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.fidelity-points-desc {
+    text-align: center;
+}
+
+.fidelity-points-title {
+    font-family: Ubuntu, serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(46, 47, 53);
+    line-height: 34px;
+}
+
+.fidelity-points-text {
+    font-family: "Covered By Your Grace", serif;
+    font-size: 50px;
+    font-weight: normal;
+    font-style: italic;
+    color: rgb(220, 78, 121);
+}
+
+.fidelity-points-grup {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: -webkit-fill-available;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.fidelity-points-grup__box1 {
+    display: flex;
+    width: -webkit-fill-available;
+    background: radial-gradient(rgb(243, 250, 250), rgb(223, 245, 245));
+    flex-direction: column;
+    border: 1px solid rgb(217, 217, 217);
+    border-radius: 8px;
+    align-items: center;
+    padding: 24px;
+    gap: 12px;
+    min-height: 455px;
+}
+
+.fidelity-points-grup__img1 {
+    background-image: url("/+LP/toymania/asset/images/icon1.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    min-height: 60px;
+    height: 150px;
+}
+
+.fidelity-points-grup__box2 {
+    display: flex;
+    width: -webkit-fill-available;
+    background: radial-gradient(rgb(255, 235, 241), rgb(243, 216, 224));
+    border: 1px solid rgb(217, 217, 217);
+    flex-direction: column;
+    border-radius: 8px;
+    align-items: center;
+    padding: 24px;
+    gap: 12px;
+    min-height: 455px;
+}
+
+.fidelity-points-grup__img2 {
+    background-image: url("/+LP/toymania/asset/images/icon2.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    min-height: 60px;
+    height: 150px;
+}
+
+.fidelity-points-grup__box3 {
+    display: flex;
+    width: -webkit-fill-available;
+    background: radial-gradient(rgb(253, 243, 234), rgb(254, 237, 221));
+    border: 1px solid rgb(217, 217, 217);
+    flex-direction: column;
+    border-radius: 8px;
+    align-items: center;
+    padding: 22px;
+    gap: 12px;
+    min-height: 455px;
+}
+
+.fidelity-points-grup__img3 {
+    background-image: url("/+LP/toymania/asset/images/icon3.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 132px;
+    min-height: 60px;
+    height: 150px;
+}
+
+.fidelity-points-grup__title {
+    font-family: Ubuntu, serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(46, 47, 53);
+    line-height: 34px;
+    text-align: center;
+}
+
+.fidelity-points-grup__text {
+    text-align: center;
+    font-family: Ubuntu, serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    color: rgb(151, 151, 154);
+    line-height: 24px;
+}
+
+.fidelity-reward {
+    margin: 0px;
+    border: 0px;
+    padding: 90px;
+    gap: 32px;
+    width: -webkit-fill-available;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.fidelity-reward-desc {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: -webkit-fill-available;
+}
+
+.fidelity-reward-title {
+    font-family: Ubuntu, serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(46, 47, 53);
+    line-height: 34px;
+}
+
+.fidelity-reward-text {
+    font-family: Ubuntu, serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    color: rgb(46, 47, 53);
+    line-height: 34px;
+}
+
+.fidelity-reward-text__bold {
+    font-weight: bold;
+}
+
+.fidelity-reward-grup {
+    display: grid;
+    gap: 32px;
+    justify-items: stretch;
+    width: -webkit-fill-available;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.fidelity-reward-grup__card {
+    width: -webkit-fill-available;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(217, 217, 217);
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) -2px 2px 10px 0px;
+}
+
+.fidelity-reward-grup__img {
+    width: -webkit-fill-available;
+    height: 20vh;
+}
+
+.fidelity-img1 {
+    background-image: url("/+LP/toymania/asset/images/vetor1.png");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.fidelity-img2 {
+    background-image: url("/+LP/toymania/asset/images/vetor2.png");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.fidelity-img3 {
+    background-image: url("/+LP/toymania/asset/images/vetor3.png");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.fidelity-img4 {
+    background-image: url("/+LP/toymania/asset/images/vetor4.png");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.fidelity-img5 {
+    background-image: url("/+LP/toymania/asset/images/vetor5.png");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.fidelity-img6 {
+    background-image: url("/+LP/toymania/asset/images/vetor6.png");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.fidelity-reward-grup__title {
+    font-family: Ubuntu, serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(18, 18, 18);
+}
+
+.fidelity-reward-grup__text {
+    font-family: Ubuntu, serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    color: rgb(151, 151, 154);
+}
+
+.fidelity-reward-grup__card-focus {
+    width: -webkit-fill-available;
+    background: rgb(220, 78, 121);
+    border: 1px solid rgb(217, 217, 217);
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) -2px 2px 10px 0px;
+}
+
+.fidelity-reward-grup__title__focus {
+    font-family: Ubuntu, serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+}
+
+.fidelity-reward-grup__text__focus {
+    font-family: Ubuntu, serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+}
+
+.fidelity-reward-end {
+    display: flex;
+    padding-top: 32px;
+    gap: 12px;
+    flex-direction: column;
+    align-items: center;
+    width: -webkit-fill-available;
+}
+
+.fidelity-reward-end__img {
+    background-image: url("/+LP/toymania/asset/images/icon-end.svg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+}
+
+.fidelity-reward-end__text {
+    font-family: Ubuntu, serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    color: rgb(46, 47, 53);
+    line-height: 34px;
+    max-width: 500px;
+    text-align: center;
+}
+
+.fidelity-club {
+    margin: 0px;
+    border: 0px;
+    padding: 90px;
+    gap: 112px;
+    width: -webkit-fill-available;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.fidelity-club-img {
+    width: -webkit-fill-available;
+    height: 500px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("https://toymania.vtexassets.com/assets/vtex.file-manager-graphql/images/ea51731f-a69b-4bc8-b04b-142f906b5730___921bb17c5b0e7218221ec4aa71cce3cb.png");
+}
+
+.fidelity-club-grup {
+    width: -webkit-fill-available;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.fidelity-club-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.fidelity-club-grup__title {
+    font-family: Ubuntu, serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(46, 47, 53);
+    line-height: 34px;
+}
+
+.fidelity-club-grup__focus {
+    font-family: "Covered By Your Grace", serif;
+    font-size: 50px;
+    font-weight: normal;
+    font-style: italic;
+    color: rgb(220, 78, 121);
+}
+
+.fidelity-club-grup__text {
+    font-family: Ubuntu, serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    color: rgb(151, 151, 154);
+    line-height: 34px;
+}
+
+.fidelity-club-grup__pass {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.fidelity-club-grup__pass-text {
+    font-family: Ubuntu, serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(220, 78, 121);
+    text-align: start;
+}
+
+.fidelity-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 50px;
+}
+
+.fidelity-gallery__title {
+    font-family: Ubuntu, serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(46, 47, 53);
+    line-height: 34px;
+}
+
+.fidelity-gallery__pics {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: -webkit-fill-available;
+}
+
+.fidelity-gallery__btn1,
+.fidelity-gallery__btn2 {
+    cursor: pointer;
+    font-size: 36px;
+    background: none;
+    border: none;
+    padding: 10px;
+}
+
+.fidelity-gallery__carrossel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: -webkit-fill-available;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    padding: 6px;
+}
+
+.fidelity-gallery__img {
+    width: 70%;
+    height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 6px;
+    position: absolute;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    mix-blend-mode: darken;
+}
+
+.fidelity-gallery__img.center {
+    transform: scale(1.2);
+    opacity: 1;
+    z-index: 2;
+}
+
+.fidelity-gallery__img.left {
+    transform: scale(1) translateX(-450px);
+    opacity: 0.9;
+    z-index: 1;
+}
+
+.fidelity-gallery__img.right {
+    transform: scale(1) translateX(450px);
+    opacity: 0.9;
+    z-index: 1;
+}
+
+.fidelity-gallery__img.hidden {
+    transform: scale(0.8) translateX(0);
+    opacity: 0;
+    z-index: 0;
+}
+
+.fidelity-extract {
+    margin: 0px;
+    border: 0px;
+    height: auto;
+    padding: 90px;
+    width: -webkit-fill-available;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.fidelity-extract-area {
+    width: -webkit-fill-available;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(217, 217, 217);
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) -2px 2px 10px 0px;
+}
+
+.fidelity-grup {
+    width: -webkit-fill-available;
+    display: flex;
+    flex-direction: column;
+}
+
+.fidelity-extract__title {
+    font-family: Ubuntu, serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(46, 47, 53);
+    line-height: 34px;
+    text-align: center;
+}
+
+.fidelity-extract__text {
+    font-family: Ubuntu, serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    color: rgb(46, 47, 53);
+    line-height: 34px;
+    text-align: center;
+}
+
+.fidelity-extract__input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: -webkit-fill-available;
+}
+
+.fidelity-extract-area__1 {
+    font-family: Ubuntu, serif;
+    font-size: 16px;
+    font-weight: 100;
+    font-style: normal;
+    color: rgb(151, 151, 154);
+    padding: 12px;
+    border-radius: 2px 0px 0px 2px;
+    border: 1px solid rgb(216, 216, 216);
+    width: 100%;
+}
+
+.fidelity-extract-area__2 {
+    transition: 0.3s ease-in-out;
+    width: 50%;
+    max-width: 132px;
+    padding: 12px;
+    border-radius: 0px 2px 2px 0px;
+    border: 1px solid rgb(187, 66, 103);
+    background: rgb(220, 78, 121);
+    font-family: Ubuntu, serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+}
+
+.fidelity-promotion {
+    margin: 0px;
+    border: 0px;
+    padding: 90px;
+    gap: 32px;
+    width: -webkit-fill-available;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.fidelity-promotion-text-grup {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.fidelity-promotion-text {
+    font-family: Ubuntu, serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    color: rgb(46, 47, 53);
+    line-height: 34px;
+    text-align: center;
+}
+
+.fidelity-promotion-title {
+    font-family: Ubuntu, serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(46, 47, 53);
+    line-height: 34px;
+    text-align: center;
+}
+
+.fidelity-promotion-grid {
+    display: grid;
+    gap: 12px;
+    width: -webkit-fill-available;
+    grid-template-columns: 1fr 1fr 1fr;
+    overflow: hidden;
+    padding: 12px;
+    justify-items: start;
+}
+
+.fidelity-promotion-grid__card {
+    width: -webkit-fill-available;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(217, 217, 217);
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) -2px 2px 10px 0px;
+}
+
+.fidelity-promotion-grid__text {
+    font-family: Ubuntu, serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    color: rgb(46, 47, 53);
+    text-align: center;
+    line-height: 24px;
+}
+
+.fidelity-promotion-grid__title {
+    font-family: Ubuntu, serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(46, 47, 53);
+    line-height: 34px;
+    text-align: center;
+    border-radius: 6px;
+    background-color: rgb(181, 181, 181);
+    padding: 6px 25%;
+}
+
+@media (max-width: 900px) {
+    .fidelity-head {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        align-items: flex-start;
+        height: 75vh;
+        padding: 32px;
+        justify-content: flex-start;
+    }
+
+    .fidelity-head-grup__title {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .fidelity-head-grup__cursive {
+        font-size: 50px;
+    }
+
+    .fidelity-head-input {
+        gap: 12px;
+        width: 100%;
+    }
+
+    .fidelity-staps {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 32px;
+        padding: 32px;
+    }
+
+    .fidelity-indication-area__web {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        width: -webkit-fill-available;
+        flex-direction: column;
+    }
+
+    .fidelity-indication {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 32px;
+        padding: 32px;
+    }
+
+    .fidelity-indication-text {
+        text-align: start;
+    }
+
+    .fidelity-indication-title {
+        margin: auto;
+    }
+
+    .fidelity-indication-area__1 {
+        width: 100%;
+    }
+
+    .fidelity-indication-area__2 {
+        width: 40%;
+    }
+
+    .fidelity-function {
+        display: flex;
+        align-items: stretch;
+        justify-content: center;
+        gap: 32px;
+        width: -webkit-fill-available;
+        flex-direction: column;
+        padding: 32px;
+    }
+
+    .fidelity-function-info {
+        width: -webkit-fill-available;
+        min-width: 0px;
+    }
+
+    .fidelity-function-info__title {
+        width: -webkit-fill-available;
+    }
+
+    .fidelity-function-info__text {
+        width: -webkit-fill-available;
+    }
+
+    .fidelity-function-box1,
+    .fidelity-function-box2 {
+        width: -webkit-fill-available;
+        overflow: hidden;
+    }
+
+    .fidelity-function-img {
+        width: -webkit-fill-available;
+        background-size: contain;
+        height: 300px;
+        background-position: center;
+    }
+
+    .fidelity-points {
+        height: auto;
+        display: flex;
+        align-items: stretch;
+        justify-content: center;
+        gap: 32px;
+        width: -webkit-fill-available;
+        flex-direction: column;
+        padding: 32px;
+    }
+
+    .fidelity-points-grup {
+        height: auto;
+        display: flex;
+        align-items: stretch;
+        justify-content: center;
+        gap: 12px;
+        width: -webkit-fill-available;
+        flex-direction: column;
+    }
+
+    .fidelity-points-grup__box1,
+    .fidelity-points-grup__box2,
+    .fidelity-points-grup__box3 {
+        min-height: 0px;
+        max-height: 250px;
+    }
+
+    .fidelity-reward {
+        height: auto;
+        display: flex;
+        align-items: stretch;
+        justify-content: center;
+        gap: 32px;
+        width: -webkit-fill-available;
+        flex-direction: column;
+        padding: 32px;
+    }
+
+    .fidelity-reward-grup {
+        grid-template-columns: 1fr;
+    }
+
+    .fidelity-club {
+        height: auto;
+        display: flex;
+        align-items: stretch;
+        justify-content: center;
+        gap: 32px;
+        width: -webkit-fill-available;
+        flex-direction: column;
+        padding: 32px;
+    }
+
+    .fidelity-club-img {
+        height: 250px;
+    }
+
+    .fidelity-gallery {
+        height: auto;
+        display: flex;
+        align-items: stretch;
+        justify-content: center;
+        gap: 32px;
+        width: -webkit-fill-available;
+        flex-direction: column;
+        padding: 32px;
+    }
+
+    .fidelity-extract {
+        height: auto;
+        display: flex;
+        align-items: stretch;
+        justify-content: center;
+        gap: 32px;
+        width: -webkit-fill-available;
+        flex-direction: column;
+        padding: 32px;
+    }
+
+    .fidelity-promotion {
+        height: auto;
+        display: flex;
+        align-items: stretch;
+        justify-content: center;
+        gap: 32px;
+        width: -webkit-fill-available;
+        flex-direction: column;
+        padding: 32px;
+    }
+}
+
+@media (max-width: 740px) {
+    .fidelity-gallery__carrossel {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 524px) {
+    .fidelity-promotion-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .fidelity-gallery__btn1 {
+        display: none;
+    }
+
+    .fidelity-gallery__btn1 {
+        display: block;
+    }
+
+    .fidelity-gallery__btn2 {
+        display: block;
+    }
+}
+
+@media (max-width: 426px) {
+    .fidelity-head {
+        height: 90vh;
+    }
+
+    .fidelity-function-box__img1 {
+        margin-top: -8%;
+    }
+
+    .fidelity-promotion-grid__title {
+        padding: 6px;
+    }
+}
+
+@media (max-width: 370px) {
+    .fidelity-function-box__img1 {
+        margin-top: -18%;
+    }
+}
