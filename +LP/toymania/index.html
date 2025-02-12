@@ -356,7 +356,7 @@
 
             atualizarCarrossel();
 
-            const elements = document.querySelectorAll(".fidelity-staps-grup__layout, .fidelity-indication, .fidelity-function, .fidelity-points-grup__box1, .fidelity-points-grup__box2, .fidelity-points-grup__box3, .fidelity-reward-grup__card, .fidelity-reward-grup__card-focus, .fidelity-club fidelity-gallery, .fidelity-extract, .fidelity-promotion");
+            const elements = document.querySelectorAll(".fidelity-staps-grup__layout, .fidelity-indication, .fidelity-function, .fidelity-points-grup__box1, .fidelity-points-grup__box2, .fidelity-points-grup__box3, .fidelity-reward-grup__card, .fidelity-reward-grup__card-focus, .fidelity-club, .fidelity-gallery, .fidelity-extract, .fidelity-promotion");
 
             elements.forEach((el) => el.classList.add("hidden"));
 
@@ -365,10 +365,10 @@
                     if (entry.isIntersecting) {
                         entry.target.classList.add("show");
                     } else {
-                        entry.target.classList.remove("show"); // Remove ao sair da tela
+                        entry.target.classList.remove("show");
                     }
                 });
-            }, { threshold: 0.2 });
+            }, { threshold: 0.05 });
 
             elements.forEach((el) => observer.observe(el));
         });
