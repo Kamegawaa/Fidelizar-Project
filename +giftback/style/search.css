@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
+
+@font-face {
+  font-family: 'Baloo';
+  src: url(/assets/font-baloo/Baloo-Regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root{
+  --Cards: #FFFFFF;
+  --Multstap: #E5E5E5;
+  --Background: #FFEFE9;
+  --Texto-Botao: #2C2C2C;
+  --Texto-Claro: #C6C6C6;
+  --Texto-Cinza1: #555555;
+  --Texto-Cinza2: #888888;
+  --Borda-Escura: #767676;
+  --Borda-Clara: #D9D9D9;
+  --Gradiente-1: #EE7662;
+  --Gradiente-2: #F56952;
+  --Gradiente-3: #E54D33;
+  --Gradiente-4: #CD3319;
+  --Gradiente-5: #9C2B18;
+  --Gradiente-6: #7A1807;
+  --Gradiente-7: #631300;
+  --Gradiente-8: #360101;
+  --Hyperlink: #0B57D0;
+  --Texto-Erro: #F42525;
+  --font-primaria: 400 1rem/1.5 "Baloo 2", sans-serif;
+  --font-secundaria: 400 1rem/1.5 'Baloo', sans-serif;
+  --cor-primaria: var(--Texto-Botao);
+}
+
+body{
+  font: var(--font-primaria);
+}
+
+.form__group {
+  padding: 12px 24px;
+  position: relative;
+  width: 80%;
+}
+
+.form__field {
+  font-family: var(--font-secundaria);
+  width: 100%;
+  border: 0px;
+  border-bottom: 1px solid var(--Multstap);
+  outline: 0;
+  font-size: 1rem;
+  color: var(--Texto-Botao);
+  background: #00000000;
+  transition: border-color 0.2s;
+  padding-top: 6px;
+  &:placeholder-shown ~ .form__label {
+    font-size: initial;
+    cursor: text;
+    top: 17px;
+  }
+}
+
+
+.form__label {
+  position: absolute;
+  top: 0px;
+  display: block;
+  transition: 0.2s;
+  font-size: 0.7rem;
+  color: var(--Texto-Claro);
+}
+
+.form__field:focus {
+  ~ .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: var(--Texto-Claro);
+    font-weight:100;    
+  }
+  padding-bottom: 12px 0px 0px 0px;  
+  font-weight: 100;
+  border-width: 1px;
+  border-image-slice: 1;
+}
